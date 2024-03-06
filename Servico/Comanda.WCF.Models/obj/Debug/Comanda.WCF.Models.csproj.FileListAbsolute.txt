@@ -1,0 +1,5 @@
+C:\Users\junio\Limup\2- Projetos\Rms\Visual Studio 2017\Restaurante\Servico\Comanda.WCF.Models\bin\Debug\Comanda.WCF.Models.dll
+C:\Users\junio\Limup\2- Projetos\Rms\Visual Studio 2017\Restaurante\Servico\Comanda.WCF.Models\bin\Debug\Comanda.WCF.Models.pdb
+C:\Users\junio\Limup\2- Projetos\Rms\Visual Studio 2017\Restaurante\Servico\Comanda.WCF.Models\obj\Debug\Comanda.WCF.Models.csproj.CoreCompileInputs.cache
+C:\Users\junio\Limup\2- Projetos\Rms\Visual Studio 2017\Restaurante\Servico\Comanda.WCF.Models\obj\Debug\Comanda.WCF.Models.dll
+C:\Users\junio\Limup\2- Projetos\Rms\Visual Studio 2017\Restaurante\Servico\Comanda.WCF.Models\obj\Debug\Comanda.WCF.Models.pdb

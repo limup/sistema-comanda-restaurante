@@ -1,0 +1,14 @@
+﻿@media only screen and (max-width: 992px) {
+    .meio-tela {
+        padding: 20%;
+    }
+
+    nav .brand-logo, .brand-logo-img {
+        height: 100% !important;
+    }
+
+    .separator{
+        margin-top: 10px;
+    }
+}
+

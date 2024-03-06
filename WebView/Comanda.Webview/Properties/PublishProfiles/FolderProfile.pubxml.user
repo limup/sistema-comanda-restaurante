@@ -1,0 +1,484 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit https://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <_PublishTargetUrl>C:\Users\junio\Limup\2- Projetos\Rms\Visual Studio 2017\Restaurante\WebView\Comanda.Webview\bin\Release\PublishOutput</_PublishTargetUrl>
+  </PropertyGroup>
+  <ItemGroup>
+    <File Include="ApplicationInsights.config">
+      <publishTime>09/30/2017 10:45:52</publishTime>
+    </File>
+    <File Include="bin/Antlr3.Runtime.dll">
+      <publishTime>09/10/2013 16:29:20</publishTime>
+    </File>
+    <File Include="bin/Antlr3.Runtime.pdb">
+      <publishTime>09/10/2013 16:29:20</publishTime>
+    </File>
+    <File Include="bin/ApplicationInsights.config">
+      <publishTime>09/30/2017 10:45:52</publishTime>
+    </File>
+    <File Include="bin/Comanda.Webview.dll">
+      <publishTime>10/01/2017 17:43:01</publishTime>
+    </File>
+    <File Include="bin/Comanda.Webview.pdb">
+      <publishTime>10/01/2017 17:43:01</publishTime>
+    </File>
+    <File Include="bin/Microsoft.AI.Agent.Intercept.dll">
+      <publishTime>06/27/2017 12:59:34</publishTime>
+    </File>
+    <File Include="bin/Microsoft.AI.DependencyCollector.dll">
+      <publishTime>07/07/2017 17:39:02</publishTime>
+    </File>
+    <File Include="bin/Microsoft.AI.PerfCounterCollector.dll">
+      <publishTime>07/07/2017 17:44:52</publishTime>
+    </File>
+    <File Include="bin/Microsoft.AI.ServerTelemetryChannel.dll">
+      <publishTime>06/27/2017 15:30:06</publishTime>
+    </File>
+    <File Include="bin/Microsoft.AI.Web.dll">
+      <publishTime>07/07/2017 17:44:50</publishTime>
+    </File>
+    <File Include="bin/Microsoft.AI.WindowsServer.dll">
+      <publishTime>07/07/2017 17:44:52</publishTime>
+    </File>
+    <File Include="bin/Microsoft.ApplicationInsights.dll">
+      <publishTime>06/27/2017 15:33:08</publishTime>
+    </File>
+    <File Include="bin/Microsoft.AspNet.TelemetryCorrelation.dll">
+      <publishTime>06/28/2017 15:05:26</publishTime>
+    </File>
+    <File Include="bin/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll">
+      <publishTime>08/15/2017 13:12:32</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Web.Infrastructure.dll">
+      <publishTime>01/05/2012 12:08:46</publishTime>
+    </File>
+    <File Include="bin/Newtonsoft.Json.dll">
+      <publishTime>06/18/2017 13:57:10</publishTime>
+    </File>
+    <File Include="bin/roslyn/csc.exe">
+      <publishTime>07/28/2017 08:15:02</publishTime>
+    </File>
+    <File Include="bin/roslyn/csc.exe.config">
+      <publishTime>07/28/2017 08:15:02</publishTime>
+    </File>
+    <File Include="bin/roslyn/csc.rsp">
+      <publishTime>07/28/2017 08:15:02</publishTime>
+    </File>
+    <File Include="bin/roslyn/csi.exe">
+      <publishTime>07/28/2017 08:15:02</publishTime>
+    </File>
+    <File Include="bin/roslyn/csi.exe.config">
+      <publishTime>07/28/2017 08:15:02</publishTime>
+    </File>
+    <File Include="bin/roslyn/csi.rsp">
+      <publishTime>07/28/2017 08:15:02</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.Build.Tasks.CodeAnalysis.dll">
+      <publishTime>07/28/2017 08:15:02</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CodeAnalysis.CSharp.dll">
+      <publishTime>07/28/2017 08:15:00</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CodeAnalysis.CSharp.Scripting.dll">
+      <publishTime>07/28/2017 08:15:02</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CodeAnalysis.dll">
+      <publishTime>07/28/2017 08:15:00</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CodeAnalysis.Scripting.dll">
+      <publishTime>07/28/2017 08:15:02</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CodeAnalysis.VisualBasic.dll">
+      <publishTime>07/28/2017 08:15:02</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CSharp.Core.targets">
+      <publishTime>07/28/2017 08:15:02</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.DiaSymReader.Native.amd64.dll">
+      <publishTime>07/28/2017 08:15:00</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.DiaSymReader.Native.x86.dll">
+      <publishTime>07/28/2017 08:15:00</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.VisualBasic.Core.targets">
+      <publishTime>07/28/2017 08:15:02</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.Win32.Primitives.dll">
+      <publishTime>07/28/2017 08:15:02</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.AppContext.dll">
+      <publishTime>07/28/2017 08:15:02</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Collections.Immutable.dll">
+      <publishTime>07/28/2017 08:15:02</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Console.dll">
+      <publishTime>07/28/2017 08:15:02</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Diagnostics.FileVersionInfo.dll">
+      <publishTime>07/28/2017 08:15:02</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Diagnostics.Process.dll">
+      <publishTime>07/28/2017 08:15:02</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Diagnostics.StackTrace.dll">
+      <publishTime>07/28/2017 08:15:02</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.IO.Compression.dll">
+      <publishTime>07/28/2017 08:15:02</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.IO.FileSystem.dll">
+      <publishTime>07/28/2017 08:15:02</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.IO.FileSystem.DriveInfo.dll">
+      <publishTime>07/28/2017 08:15:02</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.IO.FileSystem.Primitives.dll">
+      <publishTime>07/28/2017 08:15:02</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.IO.Pipes.dll">
+      <publishTime>07/28/2017 08:15:02</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Reflection.Metadata.dll">
+      <publishTime>07/28/2017 08:15:02</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Security.AccessControl.dll">
+      <publishTime>07/28/2017 08:15:02</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Security.Claims.dll">
+      <publishTime>07/28/2017 08:15:02</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Security.Cryptography.Algorithms.dll">
+      <publishTime>07/28/2017 08:15:02</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Security.Cryptography.Encoding.dll">
+      <publishTime>07/28/2017 08:15:02</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Security.Cryptography.Primitives.dll">
+      <publishTime>07/28/2017 08:15:02</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Security.Cryptography.X509Certificates.dll">
+      <publishTime>07/28/2017 08:15:02</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Security.Principal.Windows.dll">
+      <publishTime>07/28/2017 08:15:02</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Text.Encoding.CodePages.dll">
+      <publishTime>07/28/2017 08:15:02</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Threading.Thread.dll">
+      <publishTime>07/28/2017 08:15:02</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.ValueTuple.dll">
+      <publishTime>07/28/2017 08:15:02</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Xml.ReaderWriter.dll">
+      <publishTime>07/28/2017 08:15:02</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Xml.XmlDocument.dll">
+      <publishTime>07/28/2017 08:15:02</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Xml.XPath.dll">
+      <publishTime>07/28/2017 08:15:02</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Xml.XPath.XDocument.dll">
+      <publishTime>07/28/2017 08:15:02</publishTime>
+    </File>
+    <File Include="bin/roslyn/vbc.exe">
+      <publishTime>07/28/2017 08:15:02</publishTime>
+    </File>
+    <File Include="bin/roslyn/vbc.exe.config">
+      <publishTime>07/28/2017 08:15:02</publishTime>
+    </File>
+    <File Include="bin/roslyn/vbc.rsp">
+      <publishTime>07/28/2017 08:15:02</publishTime>
+    </File>
+    <File Include="bin/roslyn/VBCSCompiler.exe">
+      <publishTime>07/28/2017 08:15:02</publishTime>
+    </File>
+    <File Include="bin/roslyn/VBCSCompiler.exe.config">
+      <publishTime>07/28/2017 08:15:02</publishTime>
+    </File>
+    <File Include="bin/System.Diagnostics.DiagnosticSource.dll">
+      <publishTime>07/19/2017 10:01:30</publishTime>
+    </File>
+    <File Include="bin/System.Net.Http.Formatting.dll">
+      <publishTime>01/28/2015 05:02:42</publishTime>
+    </File>
+    <File Include="bin/System.Web.Helpers.dll">
+      <publishTime>01/28/2015 05:04:30</publishTime>
+    </File>
+    <File Include="bin/System.Web.Http.dll">
+      <publishTime>01/28/2015 05:02:54</publishTime>
+    </File>
+    <File Include="bin/System.Web.Http.WebHost.dll">
+      <publishTime>01/28/2015 05:03:46</publishTime>
+    </File>
+    <File Include="bin/System.Web.Mvc.dll">
+      <publishTime>01/28/2015 05:02:18</publishTime>
+    </File>
+    <File Include="bin/System.Web.Optimization.dll">
+      <publishTime>02/11/2014 16:26:04</publishTime>
+    </File>
+    <File Include="bin/System.Web.Razor.dll">
+      <publishTime>01/28/2015 05:02:32</publishTime>
+    </File>
+    <File Include="bin/System.Web.WebPages.Deployment.dll">
+      <publishTime>01/28/2015 05:04:30</publishTime>
+    </File>
+    <File Include="bin/System.Web.WebPages.dll">
+      <publishTime>01/28/2015 05:04:30</publishTime>
+    </File>
+    <File Include="bin/System.Web.WebPages.Razor.dll">
+      <publishTime>01/28/2015 05:04:30</publishTime>
+    </File>
+    <File Include="bin/WebGrease.dll">
+      <publishTime>01/23/2014 13:57:34</publishTime>
+    </File>
+    <File Include="Content/materialize/css/materialize.css">
+      <publishTime>09/30/2017 11:55:21</publishTime>
+    </File>
+    <File Include="Content/materialize/css/materialize.min.css">
+      <publishTime>09/30/2017 11:55:21</publishTime>
+    </File>
+    <File Include="Content/materialize/font/material-design-icons/LICENSE.txt">
+      <publishTime>09/30/2017 11:55:21</publishTime>
+    </File>
+    <File Include="Content/materialize/font/material-design-icons/Material-Design-Icons.eot">
+      <publishTime>09/30/2017 11:55:21</publishTime>
+    </File>
+    <File Include="Content/materialize/font/material-design-icons/Material-Design-Icons.svg">
+      <publishTime>09/30/2017 11:55:21</publishTime>
+    </File>
+    <File Include="Content/materialize/font/material-design-icons/Material-Design-Icons.ttf">
+      <publishTime>09/30/2017 11:55:21</publishTime>
+    </File>
+    <File Include="Content/materialize/font/material-design-icons/Material-Design-Icons.woff">
+      <publishTime>09/30/2017 11:55:21</publishTime>
+    </File>
+    <File Include="Content/materialize/font/material-design-icons/Material-Design-Icons.woff2">
+      <publishTime>09/30/2017 11:55:21</publishTime>
+    </File>
+    <File Include="Content/materialize/font/roboto/Roboto-Bold.eot">
+      <publishTime>09/30/2017 11:55:21</publishTime>
+    </File>
+    <File Include="Content/materialize/font/roboto/Roboto-Bold.ttf">
+      <publishTime>09/30/2017 11:55:21</publishTime>
+    </File>
+    <File Include="Content/materialize/font/roboto/Roboto-Bold.woff">
+      <publishTime>09/30/2017 11:55:21</publishTime>
+    </File>
+    <File Include="Content/materialize/font/roboto/Roboto-Bold.woff2">
+      <publishTime>09/30/2017 11:55:21</publishTime>
+    </File>
+    <File Include="Content/materialize/font/roboto/Roboto-Light.eot">
+      <publishTime>09/30/2017 11:55:21</publishTime>
+    </File>
+    <File Include="Content/materialize/font/roboto/Roboto-Light.ttf">
+      <publishTime>09/30/2017 11:55:21</publishTime>
+    </File>
+    <File Include="Content/materialize/font/roboto/Roboto-Light.woff">
+      <publishTime>09/30/2017 11:55:21</publishTime>
+    </File>
+    <File Include="Content/materialize/font/roboto/Roboto-Light.woff2">
+      <publishTime>09/30/2017 11:55:21</publishTime>
+    </File>
+    <File Include="Content/materialize/font/roboto/Roboto-Medium.eot">
+      <publishTime>09/30/2017 11:55:21</publishTime>
+    </File>
+    <File Include="Content/materialize/font/roboto/Roboto-Medium.ttf">
+      <publishTime>09/30/2017 11:55:21</publishTime>
+    </File>
+    <File Include="Content/materialize/font/roboto/Roboto-Medium.woff">
+      <publishTime>09/30/2017 11:55:21</publishTime>
+    </File>
+    <File Include="Content/materialize/font/roboto/Roboto-Medium.woff2">
+      <publishTime>09/30/2017 11:55:20</publishTime>
+    </File>
+    <File Include="Content/materialize/font/roboto/Roboto-Regular.eot">
+      <publishTime>09/30/2017 11:55:20</publishTime>
+    </File>
+    <File Include="Content/materialize/font/roboto/Roboto-Regular.ttf">
+      <publishTime>09/30/2017 11:55:20</publishTime>
+    </File>
+    <File Include="Content/materialize/font/roboto/Roboto-Regular.woff">
+      <publishTime>09/30/2017 11:55:20</publishTime>
+    </File>
+    <File Include="Content/materialize/font/roboto/Roboto-Regular.woff2">
+      <publishTime>09/30/2017 11:55:20</publishTime>
+    </File>
+    <File Include="Content/materialize/font/roboto/Roboto-Thin.eot">
+      <publishTime>09/30/2017 11:55:20</publishTime>
+    </File>
+    <File Include="Content/materialize/font/roboto/Roboto-Thin.ttf">
+      <publishTime>09/30/2017 11:55:20</publishTime>
+    </File>
+    <File Include="Content/materialize/font/roboto/Roboto-Thin.woff">
+      <publishTime>09/30/2017 11:55:20</publishTime>
+    </File>
+    <File Include="Content/materialize/font/roboto/Roboto-Thin.woff2">
+      <publishTime>09/30/2017 11:55:20</publishTime>
+    </File>
+    <File Include="Content/materialize/fonts/roboto/Roboto-Bold.eot">
+      <publishTime>09/30/2017 11:55:21</publishTime>
+    </File>
+    <File Include="Content/materialize/fonts/roboto/Roboto-Bold.ttf">
+      <publishTime>09/30/2017 11:55:21</publishTime>
+    </File>
+    <File Include="Content/materialize/fonts/roboto/Roboto-Bold.woff">
+      <publishTime>09/30/2017 11:55:21</publishTime>
+    </File>
+    <File Include="Content/materialize/fonts/roboto/Roboto-Bold.woff2">
+      <publishTime>09/30/2017 11:55:21</publishTime>
+    </File>
+    <File Include="Content/materialize/fonts/roboto/Roboto-Light.eot">
+      <publishTime>09/30/2017 11:55:21</publishTime>
+    </File>
+    <File Include="Content/materialize/fonts/roboto/Roboto-Light.ttf">
+      <publishTime>09/30/2017 11:55:21</publishTime>
+    </File>
+    <File Include="Content/materialize/fonts/roboto/Roboto-Light.woff">
+      <publishTime>09/30/2017 11:55:21</publishTime>
+    </File>
+    <File Include="Content/materialize/fonts/roboto/Roboto-Light.woff2">
+      <publishTime>09/30/2017 11:55:21</publishTime>
+    </File>
+    <File Include="Content/materialize/fonts/roboto/Roboto-Medium.eot">
+      <publishTime>09/30/2017 11:55:21</publishTime>
+    </File>
+    <File Include="Content/materialize/fonts/roboto/Roboto-Medium.ttf">
+      <publishTime>09/30/2017 11:55:21</publishTime>
+    </File>
+    <File Include="Content/materialize/fonts/roboto/Roboto-Medium.woff">
+      <publishTime>09/30/2017 11:55:21</publishTime>
+    </File>
+    <File Include="Content/materialize/fonts/roboto/Roboto-Medium.woff2">
+      <publishTime>09/30/2017 11:55:21</publishTime>
+    </File>
+    <File Include="Content/materialize/fonts/roboto/Roboto-Regular.eot">
+      <publishTime>09/30/2017 11:55:21</publishTime>
+    </File>
+    <File Include="Content/materialize/fonts/roboto/Roboto-Regular.ttf">
+      <publishTime>09/30/2017 11:55:21</publishTime>
+    </File>
+    <File Include="Content/materialize/fonts/roboto/Roboto-Regular.woff">
+      <publishTime>09/30/2017 11:55:21</publishTime>
+    </File>
+    <File Include="Content/materialize/fonts/roboto/Roboto-Regular.woff2">
+      <publishTime>09/30/2017 11:55:21</publishTime>
+    </File>
+    <File Include="Content/materialize/fonts/roboto/Roboto-Thin.eot">
+      <publishTime>09/30/2017 11:55:21</publishTime>
+    </File>
+    <File Include="Content/materialize/fonts/roboto/Roboto-Thin.ttf">
+      <publishTime>09/30/2017 11:55:21</publishTime>
+    </File>
+    <File Include="Content/materialize/fonts/roboto/Roboto-Thin.woff">
+      <publishTime>09/30/2017 11:55:21</publishTime>
+    </File>
+    <File Include="Content/materialize/fonts/roboto/Roboto-Thin.woff2">
+      <publishTime>09/30/2017 11:55:21</publishTime>
+    </File>
+    <File Include="Content/Site.css">
+      <publishTime>10/01/2017 17:08:00</publishTime>
+    </File>
+    <File Include="favicon.ico">
+      <publishTime>09/30/2017 10:37:32</publishTime>
+    </File>
+    <File Include="Global.asax">
+      <publishTime>09/30/2017 10:37:32</publishTime>
+    </File>
+    <File Include="Imagens/logo.png">
+      <publishTime>09/30/2017 21:15:03</publishTime>
+    </File>
+    <File Include="Scripts/jquery-3.2.1.js">
+      <publishTime>09/30/2017 10:45:33</publishTime>
+    </File>
+    <File Include="Scripts/jquery-3.2.1.min.js">
+      <publishTime>09/30/2017 10:45:33</publishTime>
+    </File>
+    <File Include="Scripts/jquery-3.2.1.min.map">
+      <publishTime>09/30/2017 10:45:33</publishTime>
+    </File>
+    <File Include="Scripts/jquery-3.2.1.slim.js">
+      <publishTime>09/30/2017 10:45:33</publishTime>
+    </File>
+    <File Include="Scripts/jquery-3.2.1.slim.min.js">
+      <publishTime>09/30/2017 10:45:33</publishTime>
+    </File>
+    <File Include="Scripts/jquery-3.2.1.slim.min.map">
+      <publishTime>09/30/2017 10:45:33</publishTime>
+    </File>
+    <File Include="Scripts/jquery.validate.js">
+      <publishTime>09/30/2017 10:45:35</publishTime>
+    </File>
+    <File Include="Scripts/jquery.validate.min.js">
+      <publishTime>09/30/2017 10:45:35</publishTime>
+    </File>
+    <File Include="Scripts/jquery.validate.unobtrusive.js">
+      <publishTime>09/30/2017 10:39:10</publishTime>
+    </File>
+    <File Include="Scripts/jquery.validate.unobtrusive.min.js">
+      <publishTime>09/30/2017 10:39:10</publishTime>
+    </File>
+    <File Include="Scripts/materialize/materialize.js">
+      <publishTime>09/30/2017 11:55:20</publishTime>
+    </File>
+    <File Include="Scripts/materialize/materialize.min.js">
+      <publishTime>09/30/2017 11:55:20</publishTime>
+    </File>
+    <File Include="Scripts/modernizr-2.8.3.js">
+      <publishTime>09/30/2017 10:45:39</publishTime>
+    </File>
+    <File Include="Scripts/respond.js">
+      <publishTime>09/30/2017 10:45:42</publishTime>
+    </File>
+    <File Include="Scripts/respond.matchmedia.addListener.js">
+      <publishTime>09/30/2017 10:45:42</publishTime>
+    </File>
+    <File Include="Scripts/respond.matchmedia.addListener.min.js">
+      <publishTime>09/30/2017 10:45:42</publishTime>
+    </File>
+    <File Include="Scripts/respond.min.js">
+      <publishTime>09/30/2017 10:45:42</publishTime>
+    </File>
+    <File Include="Scripts/Site.js">
+      <publishTime>09/30/2017 20:16:32</publishTime>
+    </File>
+    <File Include="Views/Comanda/Create.cshtml">
+      <publishTime>10/01/2017 17:40:12</publishTime>
+    </File>
+    <File Include="Views/Comanda/Index.cshtml">
+      <publishTime>10/01/2017 15:05:20</publishTime>
+    </File>
+    <File Include="Views/Home/About.cshtml">
+      <publishTime>09/30/2017 10:37:32</publishTime>
+    </File>
+    <File Include="Views/Home/Contact.cshtml">
+      <publishTime>09/30/2017 10:37:32</publishTime>
+    </File>
+    <File Include="Views/Home/Index.cshtml">
+      <publishTime>09/30/2017 21:49:23</publishTime>
+    </File>
+    <File Include="Views/Shared/Error.cshtml">
+      <publishTime>09/30/2017 10:37:32</publishTime>
+    </File>
+    <File Include="Views/Shared/_Layout.cshtml">
+      <publishTime>09/30/2017 21:40:37</publishTime>
+    </File>
+    <File Include="Views/Web.config">
+      <publishTime>09/30/2017 10:37:32</publishTime>
+    </File>
+    <File Include="Views/_ViewStart.cshtml">
+      <publishTime>09/30/2017 10:37:32</publishTime>
+    </File>
+    <File Include="Web.config">
+      <publishTime>10/01/2017 17:43:06</publishTime>
+    </File>
+  </ItemGroup>
+</Project>

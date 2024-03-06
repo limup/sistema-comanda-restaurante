@@ -1,0 +1,106 @@
+﻿@model Comanda.Webview.Models.Comanda
+
+@using (Html.BeginForm())
+{
+    @Html.AntiForgeryToken()
+
+    <div class="form-horizontal">
+
+        @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+        <div class="form-group">
+
+            <div class="row separator">
+                <div class="input-field col s12">
+                    @Html.TextBoxFor(model => model.id, new { htmlAttributes = new { @class = "validate" } })
+                    @Html.ValidationMessageFor(model => model.qtidadeItem, "", new { @class = "red-text" })
+                    <label for="comanda">Comanda</label>
+                </div>
+            </div>
+
+
+            <div class="row separator">
+                <ul class="collection">
+                    <li class="collection-item dismissable row">
+                        <div class="col s4 center-align" id="pedido">Café</div>
+                        <div class="col s4 center-align">Valor</div>
+                        <div class="col s4"><a href="#!" class="secondary-content" onclick="javascript:insereQtdade()"><i class="material-icons">send</i></a></div>
+                    </li>
+                </ul>
+            </div>
+            @Html.LabelFor(model => model.qtidadeItem, htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.qtidadeItem, new { htmlAttributes = new { @class = "form-control" } })
+                @Html.ValidationMessageFor(model => model.qtidadeItem, "", new { @class = "text-danger" })
+            </div>
+        </div>
+
+        <div class="form-group">
+            <div class="col-md-offset-2 col-md-10">
+                <input type="submit" value="Fechar" class="btn btn-default" />
+            </div>
+        </div>
+    </div>
+
+    <div id="tblListar">
+
+    </div>
+}
+
+@*<script language="javascript">
+
+    var tbPedidos = localStorage.getItem("tbClientes");// Recupera os dados armazenados
+        tbPedidos = JSON.parse(tbPedidos); // Converte string para objeto
+
+        if (tbPedidos == null) // Caso não haja conteúdo, iniciamos um vetor vazio
+            tbPedidos = [];
+
+
+    function insereQtdade() {
+        var qtdade = prompt("Quantidade", 1);
+
+        var pedido = JSON.stringify({
+            Comanda: $("#id").val(),
+            Pedido: $("#pedido").text(),
+            Quantidade: qtdade
+        });
+
+        tbPedidos.push(pedido);
+        localStorage.setItem("tbClientes", JSON.stringify(tbPedidos));
+        alert("Registro adicionado.");
+        Listar();
+        return true;
+
+        $(".hpedidos").append("<div id='comanda'");
+
+        $.ajax({
+            url: '@Url.Action("InserePedidoMemoria", "Comanda")',
+            data: { comanda: 1, idProduto: 2, qtdadeItem: 3 }
+        }).done(function () {
+            alert('Added');
+        });
+        }
+
+    function Listar() {
+        $("#tblListar").html("");
+        $("#tblListar").html(
+            "<thead>" +
+            "	<tr>" +
+            "	<th>Comanda</th>" +
+            "	<th>Pedido</th>" +
+            "	<th>Quantidade</th>" +
+            "	</tr>" +
+            "</thead>" +
+            "<tbody>" +
+            "</tbody>"
+        );
+        for (var i in tbPedidos) {
+            var cli = JSON.parse(tbPedidos[i]);
+            $("#tblListar tbody").append("<tr>");
+            $("#tblListar tbody").append("<td>" + cli.Comanda + "</td>");
+            $("#tblListar tbody").append("<td>" + cli.Pedido + "</td>");
+            $("#tblListar tbody").append("<td>" + cli.Quantidade + "</td>");
+            $("#tblListar tbody").append("</tr>");
+        }
+    }
+
+</script>*@
